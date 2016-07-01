@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Github Navigator for Chrome",
+  "description": "Add a navigation helper on project page to easily switch between projects",
+  "version": "1.0.0.1",
+  "version_name": "1.0.0-alpha.1",
+  "icons": {
+    "128": "resources/images/icon-128x128.png",
+    "64": "resources/images/icon-64x64.png",
+    "48": "resources/images/icon-48x48.png",
+    "32": "resources/images/icon-32x32.png",
+    "16": "resources/images/icon-16x16.png"
+  },
+  "minimum_chrome_version": "51.0"
+}
