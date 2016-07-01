@@ -1,6 +1,12 @@
 (function (chrome, document, console) {
     "use strict";
 
+    if (!document.forms['settings']) {
+        console.error('Unable to find the settings form.');
+
+        return;
+    }
+
     var SettingsForm = {};
 
     /**
@@ -47,13 +53,11 @@
         });
     };
 
-    if (!document.forms['settings']) {
-        console.error('Unable to find the settings form.');
-
-        return;
-    }
-
     document.addEventListener('DOMContentLoaded', function () {
+        SettingsForm.load(document.forms['settings']);
+    });
+
+    document.getElementById('undo').addEventListener('click', function () {
         SettingsForm.load(document.forms['settings']);
     });
 
