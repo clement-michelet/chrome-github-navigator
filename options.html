@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Github Navigator for Chrome</title>
+    <link rel="stylesheet" type="text/css" href="resources/mdl/material.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/options.css">
+</head>
+<body>
+<form name="settings" class="mdl-grid">
+    <div class="mdl-cell mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="accessToken" name="accessToken" required/>
+        <label class="mdl-textfield__label" for="accessToken">Personal access token</label>
+    </div>
+
+    <div class="mdl-cell cgn-options-tooltip">
+        If you don't have a personal access token, you can create a new one
+        <a href="https://github.com/settings/tokens" target="_blank">here</a>.
+    </div>
+
+    <button class="mdl-cell mdl-button mdl-js-button mdl-button--raised mdl-button--colored" type="submit">
+        Save
+    </button>
+
+    <div class="mdl-snackbar mdl-js-snackbar">
+        <div class="mdl-snackbar__text"></div>
+        <button class="mdl-snackbar__action" type="button"></button>
+    </div>
+</form>
+</body>
+<script type="text/javascript" src="resources/mdl/material.min.js"></script>
+<script type="text/javascript" src="resources/js/options.js"></script>
+</html>

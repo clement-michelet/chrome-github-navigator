@@ -11,5 +11,12 @@
     "32": "resources/images/icon-32x32.png",
     "16": "resources/images/icon-16x16.png"
   },
-  "minimum_chrome_version": "51.0"
+  "minimum_chrome_version": "51.0",
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": false
+  },
+  "storage": {
+    "managed_schema": "resources/config/schema.json"
+  }
 }
