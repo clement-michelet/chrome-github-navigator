@@ -46,7 +46,7 @@
             var notification = document.querySelector('.mdl-js-snackbar');
             notification.MaterialSnackbar.showSnackbar(
                 {
-                    message: 'Settings updated !',
+                    message: chrome.i18n.getMessage('settings_notification_saved'),
                     timeout: 1500
                 }
             );

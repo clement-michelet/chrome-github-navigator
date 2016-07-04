@@ -9,19 +9,19 @@
 <form name="settings" class="mdl-grid">
     <div class="mdl-cell mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
         <input class="mdl-textfield__input" type="text" id="accessToken" name="accessToken" required/>
-        <label class="mdl-textfield__label" for="accessToken">Personal access token</label>
+        <label class="mdl-textfield__label" for="accessToken" data-i18n="settings_access_token">Personal access token</label>
     </div>
 
-    <div class="mdl-cell cgn-options-tooltip">
+    <div class="mdl-cell cgn-options-tooltip" data-i18n="settings_access_token_tooltip">
         If you don't have a personal access token, you can create a new one
         <a href="https://github.com/settings/tokens" target="_blank">here</a>.
     </div>
 
-    <button class="mdl-cell mdl-button mdl-js-button mdl-button--raised mdl-button--colored" type="submit">
+    <button class="mdl-cell mdl-button mdl-js-button mdl-button--raised mdl-button--colored" type="submit" data-i18n="settings_save">
         Save
     </button>
 
-    <button class="mdl-cell mdl-button mdl-js-button mdl-button--raised" id="undo">
+    <button class="mdl-cell mdl-button mdl-js-button mdl-button--raised" id="undo" type="button" data-i18n="settings_undo">
         Undo
     </button>
 </form>
@@ -30,7 +30,9 @@
     <div class="mdl-snackbar__text"></div>
     <button class="mdl-snackbar__action" type="button"></button>
 </div>
-</body>
+
 <script type="text/javascript" src="resources/mdl/material.min.js"></script>
 <script type="text/javascript" src="resources/js/options.js"></script>
+<script type="text/javascript" src="resources/js/i18n.js"></script>
+</body>
 </html>

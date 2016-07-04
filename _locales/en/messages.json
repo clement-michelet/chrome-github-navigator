@@ -1,0 +1,30 @@
+{
+  "extension_name": {
+    "message": "Github Navigator for Chrome",
+    "description": "Extension - Name of the extension"
+  },
+  "extension_description": {
+    "message": "Add a navigation helper on project page to easily switch between projects",
+    "description": "Extension - Description of the extension"
+  },
+  "settings_access_token": {
+    "message": "Personal access token",
+    "description": "Settings - Field label for the Github Access Token"
+  },
+  "settings_access_token_tooltip": {
+    "message": "If you don't have a personal access token, you can create a new one <a href=\"https://github.com/settings/tokens\" target=\"_blank\">here</a>.",
+    "description": "Settings - Field tooltip for the Github Access Token"
+  },
+  "settings_save": {
+    "message": "Save",
+    "description": "Settings - Save button label"
+  },
+  "settings_notification_saved": {
+    "message": "Saved !",
+    "description": "Settings - Save notification label"
+  },
+  "settings_undo": {
+    "message": "Undo",
+    "description": "Settings - Undo button label"
+  }
+}
