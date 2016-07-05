@@ -26,5 +26,17 @@
   "settings_undo": {
     "message": "Undo",
     "description": "Settings - Undo button label"
+  },
+  "popup_synchronize": {
+    "message": "Synchronize",
+    "description": "Popup - Synchronize button label"
+  },
+  "popup_settings": {
+    "message": "Settings",
+    "description": "Popup - Settings button label"
+  },
+  "synchronization_success": {
+    "message": "Successful synchronization",
+    "description": "Synchronization - Successful message"
   }
 }

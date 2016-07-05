@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Github Navigator for Chrome</title>
+    <link rel="stylesheet" type="text/css" href="resources/mdl/material.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/popup.css">
+</head>
+<body>
+
+<div class="mdl-grid">
+    <button class="mdl-cell mdl-button mdl-js-button mdl-button--raised mdl-button--primary" id="synchronize"
+            data-i18n="popup_synchronize">
+        Synchronize
+    </button>
+    <div id="synchronize-progress" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
+
+    <button class="mdl-cell mdl-button mdl-js-button mdl-button--raised mdl-button--accent" id="settings"
+            data-i18n="popup_settings">
+        Settings
+    </button>
+</div>
+
+<footer>
+    <p data-i18n="extension_name">Github Navigator for Chrome</p>
+</footer>
+
+<div class="mdl-snackbar mdl-js-snackbar">
+    <div class="mdl-snackbar__text"></div>
+    <button class="mdl-snackbar__action" type="button"></button>
+</div>
+
+<script type="text/javascript" src="resources/mdl/material.min.js"></script>
+<script type="text/javascript" src="resources/js/i18n.js"></script>
+<script type="text/javascript" src="resources/js/popup.js"></script>
+</body>
+</html>

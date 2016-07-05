@@ -1,0 +1,29 @@
+html {
+    height: auto;
+    min-width: 340px;
+}
+
+footer {
+    border-top: 1px solid #C5C5C5;
+}
+
+footer > p {
+    text-align: right;
+    margin: 4px 16px;
+    color: #757575;
+}
+
+#synchronize-progress {
+    width: 100%;
+    margin: 8px;
+
+    display: none;
+    height: 0;
+
+    transition: height 1.5s;
+}
+
+#synchronize-progress.active-state {
+    display: block;
+    height: 4px;
+}
